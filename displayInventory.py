@@ -6,8 +6,8 @@ def displayInventory(inventory):
         print(stuff[item], item)
 
     item_cnt = sum(stuff[item] for item in stuff)
-    print(item_cnt)
-    
+    print(f"Total number if items: {item_cnt}")
+
 
 if __name__ == "__main__":
     displayInventory(stuff)
